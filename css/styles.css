@@ -76,3 +76,16 @@ display: block; margin: 4px 0;
 }
 body { font-size: 15px; }
 }
+/* ---- 1. Custom :pseudo-class rule ---- */
+/* Changes the background color of any paragraph when you hover over it */
+p:hover {
+    background-color: #e2e8f0;
+    transition: background-color 0.3s ease;
+}
+
+/* ---- 2. Custom [attribute] rule ---- */
+/* Styles all input fields that have a placeholder attribute */
+input[placeholder] {
+    border-color: #0369a1;
+    border-width: 2px;
+}
