@@ -89,3 +89,12 @@ input[placeholder] {
     border-color: #0369a1;
     border-width: 2px;
 }
+/* ============================================================
+   Try It: Hex to RGB conversion
+   ============================================================ */
+
+/* Hex: #0369a1 = RGB: rgb(3, 105, 161) */
+/* TEST 2: Hides the "Gallery" link but keeps its space 
+nav a[href="gallery.html"] {
+    visibility: hidden;
+}*/
