@@ -98,3 +98,92 @@ input[placeholder] {
 nav a[href="gallery.html"] {
     visibility: hidden;
 }*/
+
+/* ----- Practical IV: styles the JavaScript needs ----- */
+.error { color: #b91c1c; font-size: 0.9rem; display: block; margin-top: 0.25rem; }
+.sold-out-card { opacity: 0.85; }
+.sold-out-card .card-title { text-decoration: line-through; }
+
+#darkToggle {
+  float: right;
+  margin-top: 4px;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+body.dark header,
+body.dark footer {
+  background: #020617;
+}
+body.dark .card,
+body.dark .intro {
+  background: #1e293b;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+body.dark h1,
+body.dark h2 {
+  color: #7dd3fc;
+}
+
+.seats-hint {
+  font-size: 0.95rem;
+  color: #0369a1;
+}
+/* ...your Practical III CSS above stays the same... */
+
+/* ----- Practical IV: styles the JavaScript needs ----- */
+/* ----- dark mode: make all text readable ----- */
+body.dark p,
+body.dark li,
+body.dark dt,
+body.dark dd,
+body.dark label,
+body.dark legend,
+body.dark caption,
+body.dark .card-text {
+  color: #e2e8f0;
+}
+
+body.dark nav a,
+body.dark nav a:visited {
+  color: #7dd3fc;
+}
+
+body.dark .text-muted {
+  color: #94a3b8 !important;
+}
+
+body.dark .highlight {
+  color: #fb7185;
+}
+
+body.dark .table {
+  --bs-table-bg: #1e293b;
+  --bs-table-color: #e2e8f0;
+  --bs-table-striped-bg: #273449;
+  --bs-table-striped-color: #e2e8f0;
+  border-color: #334155;
+}
+/* ----- header title and menu always readable ----- */
+header h1 {
+  color: white;
+}
+
+nav a,
+nav a:visited {
+  color: #7dd3fc;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+/* ----- white text on blue Register buttons ----- */
+.btn-primary,
+.btn-primary:link,
+.btn-primary:visited,
+.btn-primary:hover {
+  color: white;
+}
